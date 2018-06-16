@@ -51,6 +51,7 @@ desc users;
 
 
 desc sellers;
+
 +----------+-------------+------+-----+---------+----------------+
 
 | Field    | Type        | Null | Key | Default | Extra          |
