@@ -1,7 +1,7 @@
 # E-Commerce
 An E-commerce Web Application with Admin Panel
 
-#Intro to the project
+# Intro to the project
 
 Here's the index page of the application. All these products are **loaded from the database.**
 
