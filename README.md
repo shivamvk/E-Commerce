@@ -29,7 +29,9 @@ And here is the **admin panel** where you can sign up and then can add products
 
 -then create the following mysql tables
 
+
 desc users;
+
 +----------+-------------+------+-----+---------+----------------+
 
 | Field    | Type        | Null | Key | Default | Extra          |
@@ -45,6 +47,8 @@ desc users;
 | name     | varchar(50) | YES  |     | NULL    |                |
 
 +----------+-------------+------+-----+---------+----------------+
+
+
 
 desc sellers;
 +----------+-------------+------+-----+---------+----------------+
@@ -63,7 +67,10 @@ desc sellers;
 
 +----------+-------------+------+-----+---------+----------------+
 
+
+
 desc products;
+
 +-----------------------+-------------+------+-----+---------+----------------+
 
 | Field                 | Type        | Null | Key | Default | Extra          |
@@ -94,7 +101,10 @@ desc products;
 
 +-----------------------+-------------+------+-----+---------+----------------+
 
+
+
 desc cart;
+
 +-----------+-------------+------+-----+---------+-------+
 
 | Field     | Type        | Null | Key | Default | Extra |
