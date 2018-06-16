@@ -17,10 +17,10 @@ You can also make a **search**
 
 You can add items to your **cart and can checkout** any time
 
-<img src="https://github.com/shivamvk/E-Commerce/blob/master/images/Screenshot%20(11).png>
+<img src="https://github.com/shivamvk/E-Commerce/blob/master/images/Screenshot%20(11).png">
 
 And here is the **admin panel** where you can sign up and then can add products
 
-<img src="https://github.com/shivamvk/E-Commerce/blob/master/images/Screenshot%20(12).png>
+<img src="https://github.com/shivamvk/E-Commerce/blob/master/images/Screenshot%20(12).png">
           
         
