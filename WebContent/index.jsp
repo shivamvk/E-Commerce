@@ -151,7 +151,9 @@
 	function seacrhbuttonclicked(event){
 		event.preventDefault();
 		var searchterm = document.getElementById('searchTerm').value;
-		
+		if(searchterm != " "){
+			window.location.assign("searchresults.jsp?query=" + searchterm);	
+		}
 	}
 	function logoutbutton(){
 		$.ajax({
@@ -167,6 +169,9 @@
             	}
             }
         });
+	}
+	function checkoutclicked(){
+		window.location.assign("checkout.jsp");
 	}
 </script>
 </head>
@@ -299,7 +304,7 @@
 						<td><%=rs1.getString(2) %></td>
 						<td>$<%=getDiscountedPrice(rs1.getInt(10),rs1.getInt(11)) %></td>
 						<td><%=rs.getString(3) %></td>
-						<td><a href="DeleteFromCart?productId=<%=rs.getString(2) %>" class="btn btn-sm btn-danger">Remove</a></td>
+						<td><a href="DeleteFromCart?productId=<%=rs.getString(2) %>&calledBy=index.jsp" class="btn btn-sm btn-danger">Remove</a></td>
 						</tr>										
 		        		<%
 		        	}
